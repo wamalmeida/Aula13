@@ -1,0 +1,33 @@
+para criar um comando de repetição, usa-se as sintaxes:
+
+FOR " " IN RANGE(1,2,3):
+1= COMEÇO DA SEQUENCIA
+2= FIM DA SEQUENCIA
+3= INTERVALO DA SEQUENCIA, CASO ESTEJA EM NEGATIVO A CONTAGEM SERÁ REGRESSIVA.
+
+Necessário identação para que funcione, como mostra os exemplos abaixo:
+
+for c in range(0,6):
+  print("oi")            <    Neste caso o "print fim" ficará fora do range.
+print("fim")
+
+
+for c in range(0,6):
+  print("oi")           <    Neste caso os dois prints serão feitos juntos
+  print("fim)
+
+
+também é possível incluir strings dentro do range, como por exemplo:
+
+for c in range (0,5):
+  n = int(input("Digite um valor: ))      <     Neste caso o usuario irá escolher o valor de n 5 vezes seguidas
+print("Fim")
+
+caso queira somar valores digitados dentro do range, basta seguir o exemplo abaixo
+
+s = 0
+for c in range(0,3)
+  n = int(input("Digite os valores: ")
+  s += n
+print("A soma dos valores é igual a: {}.".format(s))
+

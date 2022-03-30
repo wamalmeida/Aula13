@@ -31,3 +31,52 @@ for c in range(0,3)
   s += n
 print("A soma dos valores é igual a: {}.".format(s))
 
+
+
+FAÇA UM PROGRAMA QUE:
+Mostre uma contagem regressiva de 10 segundos até a virada de ano.
+
+RESPOSTA:
+import emoji
+from time import sleep
+print((emoji.emojize("\33[40mA partir de agora começa a contagem regressiva para o ano novo :party_popper: :partying_face:\33[m")))
+for contagem_regressiva in range(10,0,-1):
+    print(contagem_regressiva)
+   sleep(1)
+print(emoji.emojize("Feliz 2022! :partying_face: "))
+
+
+CRIE UM PROGRAMA QUE
+Mostre a soma de todos os números impares que são divisiveis por 3 dentro de 1 a 500
+
+RESPOSTA:
+print("Este código mostrara a soma de todos os numeros impares que são divisiveis por 3 dentro de 1 a 500")
+soma = 0
+for sequencia in range(1, 500):
+    if sequencia % 3 == 0:
+        if sequencia % 2 == 1:
+            soma += sequencia
+print("A soma de todos os numeros ímpares e divisiveis por 3 dentro de 1 a 500 é igual a: {}.".format(soma))
+
+
+CRIE UMA TABUADA COM O NÚMERO SENDO INSERIDO PELO USUARIO
+
+RESPOSTA:
+print("Este código mostrará a tabuada do número escolhido")
+multiplicador = int(input("Qual o número deseja ver a tabuada? "))
+for sequencia in range(1,11):
+    print("{} X {} = {}".format(multiplicador, sequencia, (multiplicador*sequencia)))
+
+
+CRIE UM CÓDIGO QUE
+Leia 6 numeros inteiros e depois mostre a soma de todos que forem pares.
+
+RESPOSTA:
+soma = 0
+for sequencia in range(0,6):
+    sequencia = int(input("Digite um valor: "))
+    if sequencia % 2 == 0:
+        soma += sequencia
+print("A soma de todos os numeros pares informados foi: {}".format(soma))
+
+
